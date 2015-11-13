@@ -1,0 +1,14 @@
+defaults:
+  -
+    scope:
+      path: "VideoDoc_5671"
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Sarah Murto"
+      category: "site"
+baseurl: /VideoDoc_5671
+permalink: none
+title: When Words Aren’t Enough: Video Documentation for Software Engineers
+kramdown:
+  input: GFM
