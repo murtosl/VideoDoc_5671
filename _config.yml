@@ -9,6 +9,6 @@ defaults:
       category: "site"
 baseurl: /VideoDoc_5671
 permalink: none
-title: When Words Aren’t Enough: Video Documentation for Software Engineers
+title: When Words Aren't Enough: Video Documentation for Software Engineers
 kramdown:
   input: GFM
