@@ -5,11 +5,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{% if page.title == nil %}
-				{{ site.title }}
-			{% else %}
+	<title>{% if page.title != nil %}
 				{{ page.title }}
 			{% endif %}
+			
+			- {{ site.title }}
 	</title>
 	<link rel="stylesheet" href="{{ site.baseurl }}/style.css" />
 </head>
