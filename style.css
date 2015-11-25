@@ -50,6 +50,24 @@ img{
 	border: .1em solid #aaa;
 }
 
+.noBullet {
+		list-style-type: none;
+	
+}
+
+.noBullet li{
+	
+	width: 100%;
+	display: inline-block;
+	margin: 30px;
+}
+
+li img{
+		float: left;
+		margin: 15px;
+		height: 150px;
+}
+
 figcaption{
 	text-align:center;
 	font-size: 10px;
