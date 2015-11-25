@@ -19,6 +19,26 @@ body{
 		overflow-x: hidden;
 }
 
+table, tr, td, th{
+	border: .1em solid black;
+	border-collapse: collapse;
+}
+
+td{
+	padding: 3px;
+}
+
+th{
+	padding: 6px;
+	text-align: center;
+	background-color: #eee;
+}
+
+tr:nth-child(2n) {
+	background-color: pink;
+}
+
+
 a{
 	color: red;
 }
