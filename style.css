@@ -50,6 +50,12 @@ img{
 	border: .1em solid #aaa;
 }
 
+.innerImg img{
+	height: 200px;
+	float: left;
+	margin-right: 30px;
+}
+
 .noBullet {
 		list-style-type: none;
 	
