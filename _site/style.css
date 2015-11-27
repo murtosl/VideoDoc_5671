@@ -7,10 +7,13 @@ h1, h2, h3, h4, h5, h6{
 	text-align:center;
 	font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
 	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 p {
 	margin-bottom: 15px;
+	display:inline-block;
+	width: 100%;
 }
 
 body{
