@@ -41,6 +41,23 @@ tr:nth-child(2n) {
 	background-color: pink;
 }
 
+#HDTable {
+	float: right;
+	margin-bottom: 30px;
+	
+}
+
+#HDTable tr {
+	background-color: white;
+	width: 100%;
+}
+
+#HDTable img {
+	width:100%;
+}
+		
+	
+}
 
 a{
 	color: red;
