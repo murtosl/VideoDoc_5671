@@ -56,8 +56,7 @@ tr:nth-child(2n) {
 	width:100%;
 }
 		
-	
-}
+
 
 a{
 	color: red;
@@ -150,4 +149,9 @@ nav{
 
 nav a{
 	padding-right: 15px;
+}
+
+ul{
+	margin-bottom: 25px;
+	
 }
