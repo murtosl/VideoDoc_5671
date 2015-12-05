@@ -237,10 +237,24 @@ nav p{
 	color: #ffe35a;
 }
 
+nav img{
+	border: none;
+	display: inline;
+}
+
 nav a{
 	margin-right: 15px;
 	color: #ffe35a;
 	text-decoration: none;
+}
+
+#navLinks{
+	overflow-x: hidden;
+	background-color: red;
+	max-width: 300px;
+	min-width: 100px;
+	height: 50px;
+	display: inline-block;
 }
 
 .currentLink{
