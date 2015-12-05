@@ -69,14 +69,13 @@ tr:nth-child(2n) a {
 
 
 .subtitleRow td{
-		background-color: #423c3c;
+	background-color: #423c3c;
 	color: #fff;
 }
 
 #HDTable {
 	float: right;
 	margin-bottom: 30px;
-	
 }
 
 #HDTable tr {
@@ -203,19 +202,19 @@ header
 	margin-right: 5%;
 	padding: 10px;
 	text-align: left;
-	width: 90%;
 }
 
 #middle{
 margin-top:150px;
-margin-bottom: 45px;
+margin-bottom: 40px;
+margin-left: -3px;
 position: absolute;
 top: 0; 
 bottom: 0; 
 left: 0; 
 right: 0;
 overflow-y: auto;
-overflow-x: hidden;
+overflow-x: auto;
 }
 
 #middle:after {
