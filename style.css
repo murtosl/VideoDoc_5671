@@ -67,6 +67,12 @@ tr:nth-child(2n) a {
 	color: #fff;
 }
 
+
+.subtitleRow td{
+		background-color: #423c3c;
+	color: #fff;
+}
+
 #HDTable {
 	float: right;
 	margin-bottom: 30px;
