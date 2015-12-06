@@ -1,21 +1,30 @@
 $(document).ready(function() {
-	$("#navLinks a").hide();
+	$(".naviLinks a").hide();
 	if(curPage){
 			$('.' + curPage).addClass('currentLink').show();
+			$('.' + curPage + 'N').show();
+			$('.' + curPage + 'N').prev().addClass('currentLink');
+			$('.' + curPage + 'P').show();
+			$('.' + curPage + 'P').next().addClass('currentLink');
 	} else{
 		$("#navLinks a").first().show();
+		$("#nextLinks a").first().show();
 	}
 	
 	$("#endJump").click(function(){
-		$("#navLinks a").hide();
+		$(".naviLinks a").hide();
 		var tempClass = $("#navLinks a").last().attr('class');
 		$('.' + tempClass).show();
+		$('.' + tempClass + 'P').show();
+		$('.' + tempClass + 'N').show();
 	});
 	
 	$("#startJump").click(function(){
-		$("#navLinks a").hide();
+		$(".naviLinks a").hide();
 		var tempClass = $("#navLinks a").first().attr('class');
 		$('.' + tempClass).show();
+		$('.' + tempClass + 'P').show();
+		$('.' + tempClass + 'N').show();
 	});
 	
 	$("#next").click(function(){
@@ -26,8 +35,10 @@ $(document).ready(function() {
 		nextClass = nextClass.replace(" currentLink", "");
 		
 		if(nextClass){
-			$("#navLinks a").hide();
+			$(".naviLinks a").hide();
 			$('.' + nextClass).show();
+			$('.' + nextClass + 'N').show();
+			$('.' + nextClass + 'P').show();
 		}
 	});
 	
@@ -40,8 +51,10 @@ $(document).ready(function() {
 		prevClass = prevClass.replace(" currentLink", "");
 		
 		if(prevClass){
-			$("#navLinks a").hide();
+			$(".naviLinks a").hide();
 			$('.' + prevClass).show();
+			$('.' + prevClass + 'N').show();
+			$('.' + prevClass + 'P').show();
 		}
 	});
 });
