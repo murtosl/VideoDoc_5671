@@ -26,7 +26,7 @@ html, body {
 body {
 	
 	min-width: 500px;
-	background-color: #fffcf7;
+	background-color: #1f1e1a;
 	overflow-x: hidden;
 }
 
@@ -177,6 +177,7 @@ header{
 	margin-right: 3px;
 	margin-bottom: 0px;
 	height: 96px;
+	background-image: url('images/titleGraphicbg.png');
 	
 }
 
@@ -189,6 +190,10 @@ header{
 	margin-right: 5px;
 	padding-top: 5px;
 }
+
+#header_image img{
+		border: none;
+	}
 
 #container{
 	display: inline-block;
@@ -210,6 +215,7 @@ left: 0;
 right: 0;
 overflow-y: auto;
 overflow-x: auto;
+background-image: url('images/square_bg_shaded.jpg');
 }
 
 #middle:after {
@@ -220,7 +226,9 @@ overflow-x: auto;
 nav {
 	margin-bottom: 30px;
 	text-align: center;
-	background-color: #1f1e1a;
+	/* background-color:*#1f1e1a;*/
+	background-image: url('images/navBG.png');
+	background-repeat:  repeat-x;
 	height: 50px;
 	margin: 0;
 	padding: 0;
@@ -273,6 +281,7 @@ nav a {
 	font-size: 12px;
 	 opacity:0.8;
 }
+
 
 #nextLinks a {
 	font-size: 12px;
