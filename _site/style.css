@@ -34,6 +34,7 @@ body {
 table, tr, td, th {
 	border: .1em solid black;
 	border-collapse: collapse;
+	
 }
 
 td {
@@ -137,7 +138,8 @@ img {
 	
 	width: 100%;
 	display: inline-block;
-	margin: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
 }
 
 li img{
