@@ -260,6 +260,11 @@ nav img {
 	margin-top: -30px;
 }
 
+ _::-webkit-full-page-media, _:future, :root  nav img  {
+    top: 0px;
+    margin-top: 0px;
+ }
+
 nav a {
 	color: #FFFCF7;
 	text-decoration: none;
